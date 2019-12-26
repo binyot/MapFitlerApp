@@ -36,9 +36,7 @@ class PinProviderImpl : FilteredPinProvider {
                 null
             }
             pinData?.pins?.forEach {
-                mServices[it.service]?.let { service ->
-                    service.add(it)
-                } ?: mServices.put(it.service, arrayListOf(it))
+                mServices[it.service]?.add(it) ?: mServices.put(it.service, arrayListOf(it))
             }
             filteredServices.clear()
             mLiveServices.postValue(mServices.keys.toList())
