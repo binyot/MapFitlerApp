@@ -1,0 +1,10 @@
+<resources>
+    <!--
+    Package name:
+    5F:F8:4E:40:30:B1:E0:C5:75:D9:6C:94:EB:40:B5:1C:FE:2D:41:74
+
+    SHA-1 certificate fingerprint:
+    5F:F8:4E:40:30:B1:E0:C5:75:D9:6C:94:EB:40:B5:1C:FE:2D:41:74
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCOYuk9Sv0Vg7tXE89P7CXTflNz-vDRXls</string>
+</resources>
